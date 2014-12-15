@@ -1,0 +1,62 @@
+body {
+
+}
+#nav {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 50px;
+	background: black;
+	z-index: 99;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+#image{
+	width:600px;
+	text-align:center;
+
+}
+#nav a {
+	color: white;
+	text-decoration: none;
+	float: left;color white;
+	margin: 12px;
+	margin-left:60px;
+}
+footer {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	width:100%;
+	background:transparent;
+	color:black;
+	
+	text-align:right;
+}
+#top {
+	position: absolute;
+	z-index:98;
+	top:0px;
+	left:0px;
+	background:rgb(52, 52, 100);
+	color:white;
+	width:200px;
+	min-height:100px;
+	height:100%;
+	
+	margin: 0px;
+}
+#partyList{
+	position:reltive;
+	left:300px;
+	margin-top:100px;
+}
+
+
+ #nav a:hover{
+	text-decoration:overline;
+}
